@@ -1,0 +1,4 @@
+para mi primer programa en Java desde cmd.
+	* abrir línea de comandos y ubicarse en la carpeta contenedora del archivo .java
+	* escribir javac nombre_del_programa.java
+	* para ejecutar el programa escribir java nombre_del_archivo_class
