@@ -1,0 +1,114 @@
+TEORIA PROGRAMACIÓN ORIENTADA A OBJETOS
+
+Simula el comportamiento del mundo real.
+Basado en
+	Herencia
+	Extracción
+	Polimorfismo
+	Encapsulamiento
+Objeto. Representación de una entidad real o abstracta con rol significativo en el problema.
+	Caracteristicas
+		Estado. Historia en un enlace de tiempo
+		Comportamiento. Operaciones que afectan su estado
+		Identidad. Se distinguen por su existencia única.
+		
+++ ATRIBUTOS Y MÉTODOS
+
+Clase. Grupo de Objetos con características similares, con atributos y relaciones.
+Atributo. Nombre y Tipo de Dato.
+Método. Implementación de una operación.
+Signo
+	Pública. cualquiera puede usarla
+	Protegida. Cualquier subclase puede usarla
+	Privada. Solo la clase puede usarlo.
+	
+++ ABSTRACCION, Encapsulamiento Y MODULARIDAD
+Abstracción. Aislar un elemento de su contexto o de los elementos que lo acompañan. Tratar solamente el dominio del problema
+			y no referirse al diseño o implementación. Separar los aspectos importante y eliminar los irrelevantes.
+Encapsulamiento. Envolver los datos u operaciones que trabajan sobre esos datos en un mismo lugar. Cada objeto está aislado
+			del exterior. Protege el acceso al objeto. Evita el cambio de estado de manera no controlada.
+Modularidad. Subdividir una aplicación en partes pequeñas o módulos. Los módulos se compilan por separado.
+
+	++ LENGUAJE UNIFICADO DE MODELADO (UML)
+	Es un lenguaje gráfico para visualizar, especificar, construir y documentar un sistema. Ofrecer un estándar para un plano o
+	modelo. Es el lenguaje en el que está escribo el modelo.
+
+	++ RELACIÓN DE COMPOSICIÓN
+	Relación donde la clase forma parte de otra. La clase contenida debe coincidir con la vida de la clase del contenedor.
+	
+	++ RELACIÓN DE AGREGACIÓN
+
+++ HERENCIA Y POLIMORFISMO
+Herencia. 
+Mecanismo para obtener atributos y operaciones utilizando la estructura de generalización, en ella se comparten atributos
+teniendo como base una relación jerárquica. La herencia utiliza jerarquías de manera que una clase hija pueda heredar atributos y
+métodos de una clase padre.
+
+	Herencia Simple. Los objetos solo pueden heredar de una clase a la vez.
+	Herencia Múltiple. Hereda de más de un padre.
+	
+Polimorfismo. 
+Capacidad de un método para tener muchas formas, permite definir particularidades.
+
+++ METODOS ESPECIALES
+finalize()
+Es el destructor de objetos. Es usado para eliminar conexiones o instancias de memoria cuando el objeto ya no es necesario.
+
+++ CLASES ESPECIALES
+
+	-- CLASES ABSTRACTAS E INTERFACES	
+	Una clase abstracta es una clase que no se va a instanciar. Sirve como estructura para sub clases. Utiliza la palabra
+	reservada Abstract y,
+		1. Abstract Class -> para Clases
+		2. Abstract TipoRetornoMetodo -> para métodos.
+		
+	En las interfaces no se implementan métodos, es decir todos los métodos son abstractos. Sirven para mediar un estánda,
+	además implementa herencia múltiple.
+	
+	-- CLASE OBJECT
+	Se encuentra situada en la parte más alta del árbol de la herencia del entorno Java. Define estados y comportamientos 
+	básicos. Tiene métodos generales que pueden sobreescribirse como toString() y equals(), y otros que no como getClass().
+
+++ ESTRUCTURA DE DATOS
+
+Representación organizada de un conjunto de datos agrupados en una entidad u objeto. Se clasifican en:
+	Estáticas. No puede modificarse en tiempo de ejecución. Ej. Matrices, Arreglos Unidimensionales y Bidimensionales.
+		Para implementar arreglos se debe separar espacio en memoria y tiene operaciones como ordenar, buscar, insertar,
+		eliminar, modificar, entre otras.
+	Dinámicas. No tienen tamaño específico. Ej. Listas Enlazables, árboles.
+
+++ ALGORITMO DE BÚSQUEDA
+
+Diseñado para localizar un elemento en una estructura de datos.
+	Secuencial. Se utiliza cuando el arreglo no está ordenado. La búsqueda es elemento por elemento, hasta encontrarlo o llegar
+		al final.
+	Binaria. Se utiliza cuando el arreglo donde se realizará la búsqueda está ordenado. Reduce el tiempo de búsqueda. Se 
+		realiza buscando desde la mitad del arreglo, luego se compara si el dato de búsqueda es menor al dato consultado, entonces
+		se descarta la primera o segunda mitad.
+
+++ ALGORITMO DE ORDENAMIENTO
+
+Algoritmos con el objetivo de organizar las estructuras de datos.
+	Burbuja.
+		Compara pares de elementos adyacentes, intercambiandolos dependiendo de la condición estipulada para organizar.
+	Selección.
+		Compara cada elemento con los demás, guardando el índice del valor menor para ordenamiento ascendente y mayor para
+		ascendente.
+	Inserción.
+		Se toma el segúndo lugar y se compara con el anterior de acuerdo a la condición se baja o mantiene su posición.
+
+++ PATRONES DE DISEÑO DE SOFTWARE
+
+	Creación. 
+		Proporcionan ayuda a la hora de crear elementos. Son usados para cuando la creación requiere tomar decisiones.
+	Estructurales.
+		Están relacionados en como las clases y objetos se combinan para dar lugar a estructuras más complejas.
+	Comportamiento.
+		Relacionados con algoritmos y asignación de responsabilidades a los objetos. No solo describen el comportamiento
+		sino también la comunicación.
+	Singleton.
+		Garantiza solo una instancia en la clase y proporcionar un punto de acceso global.
+	
+	
+
++

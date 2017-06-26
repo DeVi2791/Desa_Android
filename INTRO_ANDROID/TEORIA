@@ -1,0 +1,20 @@
+INTRODUCCIÓN AL DESARROLLO ANDROID
+LECCION 4. COMPONENTES DE LAS APLICACIONES
+++ Actividad
+Proporciona un espacio de pantalla para interactuar con una tarea en específico. Existen actividades que interactuan entre sí.
+De este grupo siempre hay una actividad principal. Cuando una actividad ejecuta una nueva, esta no se elimina solo se detine.
+Utiliza pilas de orden LIFO, la penúltima actividad está en segundo orden para regresar.
+++ Servicios
+Son procesos que se ejecutan sin interfaz gráfica, se implementan en segundo plano. Si un usuario cambia de aplicación,
+los servicios pueden mantener su ejecución.
+	Tipos
+		Iniciado. 
+		Vinculados. Se dan cuando un componente se une con un determinado servicio. Modelo Cliente-Servidor. El tiempo de
+		vida es mientras se utiliza el servicio. Se ejecutan en el mismo hilo de ejecución principal de la aplicación, si
+		un servicio es muy pesado, es preferible crear un hilo propio.
+++ Proveedores de Contenido
+Son los encargados de gestionar la info que puede ser compartida. Dicha info puede estar en el sistema, en la BD, etc.
+Es fundamental el uso de contenido por medio de permisos.
+++ Receptores de Difusión
+No presentan interfaz gráfica al usuario. Su uso es como puerta de entrada hacia otra componente. PAra este tipo de componente
+existe el recurso para enviar mensajes al sistema.
