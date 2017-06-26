@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Deportes</string>
+    <string name="app_autor">Denisse Villamar</string>
+    <string name="futbol">Fútbol</string>
+    <string name="baloncesto">Baloncesto</string>
+    <string name="tenis">Tennis</string>
+</resources>
