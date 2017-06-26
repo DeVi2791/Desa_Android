@@ -1,0 +1,7 @@
+En este ejercicio queremos seguir midiendo tu grado de conocimiento sobre la importación de proyectos externos a Android Studio.
+
+Partiendo de un proyecto que se encuentra elaborado con el IDE Eclipse, deberás importarlo a el IDE Android Studio, el cual se ha vuelto el entorno de desarrollo oficial para trabajar en proyectos de aplicaciones nativas Android.
+
+Una vez importado el proyecto de Eclipse a Android Studio tendrás que modificar el mensaje que se muestra en la interfaz de la aplicación al momento de ejecutarse. El nuevo mensaje a mostrar será: "¡Proyecto importado exitosamente!".
+
+A continuación se muestra el link donde podrás descargar el proyecto de Eclipse que deberás usar.
