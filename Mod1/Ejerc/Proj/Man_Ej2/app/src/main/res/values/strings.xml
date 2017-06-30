@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Man_Ej2</string>
+    <string name="inicio">Inicio</string>
+    <string name="bienvenida">Bienvenidos sean Todos</string>
+    <string name="auto">Automatización</string>
+    <string name="redes">Redes</string>
+    <string name="programacion">Programación</string>
+</resources>

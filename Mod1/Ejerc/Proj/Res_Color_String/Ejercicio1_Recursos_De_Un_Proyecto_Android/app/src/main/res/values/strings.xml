@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Ejercicio1_Recursos_De_Un_Proyecto_Android</string>
+    <string name="sow">Windows</string>
+    <string name="soo">OS</string>
+    <string name="sol">Linux</string>
+</resources>

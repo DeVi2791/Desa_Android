@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Manifest</string>
+    <string name="tv">TV</string>
+    <string name="smartp">SmartPhone</string>
+    <string name="tablet">Tablet</string>
+    <string name="inicio">Inicio</string>
+</resources>

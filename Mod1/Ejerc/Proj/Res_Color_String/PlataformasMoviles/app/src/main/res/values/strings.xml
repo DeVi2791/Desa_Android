@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">PlataformasMoviles</string>
+    <string name="string1">Android</string>
+    <string name="string2">iOS</string>
+    <string name="string3">Windows Mobile</string>
+    <string name="string4">Firefox OS</string>
+    <string name="string5">Ubuntu</string>
+</resources>
