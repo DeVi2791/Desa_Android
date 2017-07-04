@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Bienvenidos</string>
+    <string name="matdesign">Android Material Design</string>
+    <string name="concAvanz">Conceptos Avanzados de Android</string>
+    <string name="desApAvanz">Desarrollo de Aplicaciones Avanzadas de Android</string>
+    <string name="welcome">Bienvenidos al Curso de Android Avanzado</string>
+    <string name="lbl_inicio">Bienvenidos</string>
+    <string name="lbl_matdesign">Material Design</string>
+    <string name="lbl_concAvanz">Conceptos Avanzados</string>
+    <string name="lbl_desApp">Desarrollo de Apps Avanzadas</string>
+</resources>

@@ -3,7 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/LibCreacion.iml" filepath="$PROJECT_DIR$/LibCreacion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LibCreacion.iml" filepath="$PROJECT_DIR$/LibCreacion.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/milibreria/milibreria.iml" filepath="$PROJECT_DIR$/milibreria/milibreria.iml" />
       <module fileurl="file://$PROJECT_DIR$/milibreria/milibreria.iml" filepath="$PROJECT_DIR$/milibreria/milibreria.iml" />
     </modules>
   </component>
