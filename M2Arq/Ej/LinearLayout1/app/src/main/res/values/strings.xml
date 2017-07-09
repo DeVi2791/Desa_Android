@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">LinearLayout1</string>
+    <string name="hora1">12:00</string>
+    <string name="dia1">26 de Julio, Viernes, Bógota.</string>
+    <string name="hora2">México D.F ------------------- 23:00</string>
+    <string name="hora3">Santiago ----------------------- 23:00</string>
+    <string name="hora4">Montevideo ------------------- 23:00</string>
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="nextu.dvillamar.linearlayouth.MainActivity">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="@string/android1"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:gravity="center"
+        android:background="#158bc8"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="@string/android2"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:gravity="center"
+        android:background="#784ca5"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="@string/android3"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:gravity="center"
+        android:background="#345cf1"/>
+</LinearLayout>

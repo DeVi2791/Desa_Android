@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Agregando Producto</string>
+    <string name="lblcod">Código</string>
+    <string name="txtcod">Escribir el Código</string>
+    <string name="lblnombpro">Producto</string>
+    <string name="txtnombpro">Escriba el Nombre del Producto</string>
+    <string name="lblpeso">Peso</string>
+    <string name="txtpeso">Peso en Kg</string>
+    <string name="lblDescr">Descripción</string>
+    <string name="txtDescr">Escriba una breve descripción</string>
+    <string name="btadd">Enviar</string>
+    <string name="btcancel">Cancelar</string>
+</resources>
