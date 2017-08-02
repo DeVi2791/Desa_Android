@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="nextu.dvillamar.perfilusuario.MainActivity">
+
+    <ImageView
+        android:id="@+id/imagen"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/gatito"
+        android:scaleType="centerCrop"
+        />
+
+    <Button
+        android:id="@+id/cambiofoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cambFoto"
+        android:layout_toRightOf="@+id/imagen"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="24dp"
+        />
+
+    <TextView
+        android:id="@+id/nombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nombre"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:layout_below="@+id/imagen"
+        android:padding="16dp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cambiar"
+        android:layout_alignTop="@+id/nombre"
+        android:layout_alignParentRight="true"
+        />
+
+    <TextView
+        android:id="@+id/correo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/correo"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:layout_below="@+id/nombre"
+        android:padding="16dp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cambiar"
+        android:layout_alignTop="@+id/correo"
+        android:layout_alignParentRight="true"
+        />
+
+    <Button
+        android:id="@+id/btn_cancelar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cancelar"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/guardar"
+        android:layout_toLeftOf="@+id/btn_cancelar"
+        android:layout_alignParentBottom="true"
+        />
+
+
+</RelativeLayout>

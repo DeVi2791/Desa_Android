@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Editar Perfil</string>
+    <string name="cambFoto">Cambiar Foto</string>
+    <string name="cambiar">Cambiar</string>
+    <string name="guardar">Guardar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="nombre">Denisse Villamar</string>
+    <string name="correo">de2791vi@gmail.com</string>
+</resources>

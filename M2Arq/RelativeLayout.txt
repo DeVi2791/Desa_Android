@@ -1,0 +1,56 @@
+Relative Layout
+
+Organiza los elementos en su interior de manera relativa a sus hermanos, respecto al area del contenedor padre.
+
+Propiedades:
+	+ id -> identificacion
+		android:id="@+id/nombreId"
+	+ AlignParentTop -> Si tiene true, alinea el elemento en la parte de arriba del contenedor.
+		android:layout_alignParentTop
+	+ AlignLeft -> si tiene true, alinea el elemento en la parte izquierda del contenedor.
+		android:layout_alignLeft
+	+ Below -> Utiliza el id, Ubica el elemento justo debajo del view asociado al id pasado como valor a la propiedad.
+		android:layout_below
+	+ toRightOf -> Recibe el id asignado a otro view, como resultado ubica a la derecha del id asociado como valor a la propiedad.
+
+Mas Documentacion: buscar relativelayout.layoutparam
+
+Funciones.
+	Proyecto RelativeLayout y RelativeLayout2 (Botones de colores)
+		// Alinear Texto
+		<TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/nextu"
+	        android:textAppearance="?android:textAppearanceLarge"		//Aumenta el tamaño del texto
+	        android:layout_centerInParent="true"
+        />
+	<!---
+        Centra el texto de la línea vertical
+        -->
+        android:layout_centerVertical="true"
+        <!---
+        Centra vertical como verticalmente
+        -->
+        android:layout_centerInParent="true"
+    // Alinear hacia la derecha
+        android:layout_alignParentRight="true"
+    //Ubicar respecto a otros elementos
+    	1.//Indica que agrega un id :: Da una id al objeto
+    	android:id="@+id/applepie"                    
+    	2. //Para colocar debajo (below) del objeto de apple pie. above (arriba)
+    	android:layout_below="@+id/applepie"
+        android:layout_alignParentRight="true"
+        3. // a lado derecho
+        android:layout_toRightOf="@+id/bananabread"
+        android:layout_alignParentBottom="true"				// Alinea en la parte inferior
+    // Agregar margen
+    	android:layout_margin="32dp"
+
+   	*************** Proyecto LoginRelativeLayout **************************************
+   	// Sugerencia de Texto en Caja de Texto
+   	android:hint="ksdlfa"
+
+   	****************** Ejercicio Tutor Cafe ******************************************
+   	// Centrar imagen y ocupar ancho completo de la pantalla   	
+        android:scaleType="centerCrop"

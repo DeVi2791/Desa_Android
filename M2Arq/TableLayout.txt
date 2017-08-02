@@ -1,0 +1,25 @@
+Table Layout
+
+Permite colocar sus elementos hijos en forma tabular, es decir en filas y columnas.
+Esta determinada por elementos TableRow qu simbolizan filas.
+Cada elemento en el Table Row representará una celda.
+El ancho lo dará el ancho del mayor elemento.
+El acho no puede ser modificado de manera predeterminada. sin embargo el heigh (android:layout_height) puede ser definido por elemnto hijo
+en el tablerow.
+Igual que LinearLayout, es posible aplicar weigh para dar prioridades o indice de importancia para así distribuir el ancho.
+Así mismo, el alto puede tener prioridad.
+Otro atributo, es span (android:layout_span), que permite que ocupe más de una columna mientras este libre.
+
+Propiedades de Table Layout
+	strechColumns .-> Asigna el espacio restante a las colmnas que deseemos. Con * distribuye en todas las celdas. Con 0 en la primera 					  columna. Si se quiere que se distribuya entre más de una columna, se pone "0,1"
+    	android:stretchColumns="*"
+    strinkColumns -> Ajusta el text a la celda para que el contenido no se salga de la pantalla
+
+Propiedades TextView
+	gravity .-> Con valor Center, el texto se centra. Ubicado en TEXTVIEW
+		android:gravity="center"
+	span .-> En el atribuot que recibe se coloca el numero de columnas que ocupará
+		android:layout_span="2"
+
+Propiedades TableRow
+	weight .-> Prioridad

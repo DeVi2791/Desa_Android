@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Coffee</string>
+    <string name="bienvenido">Bienvenidos</string>
+    <string name="tutorcafe">Tutor Cafe</string>
+    <string name="sesion1">1. Sesion 1.</string>
+    <string name="sesion2">2. Sesion 2.</string>
+    <string name="sesion3">3. Sesion 3.</string>
+    <string name="hora1">10:00 am.</string>
+    <string name="hora2">4:00 pm.</string>
+    <string name="hora3">7:00 pm.</string>
+</resources>
