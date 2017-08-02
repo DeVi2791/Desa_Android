@@ -1,8 +1,0 @@
-Linear Layout
-
-Se caractiza por organizar sus elementos hijos en una sola columna o fila, dependiendo de la orientación dada.
-
-Propiedades
-	+ layout_weight -> Indica cuanto espacio va ocupar dicho view en la pantalla.
-	+ orientation -> Orientación de los views.
-	+ gravity -> Centra el Texto
