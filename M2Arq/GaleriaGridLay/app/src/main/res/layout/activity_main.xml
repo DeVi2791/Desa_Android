@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="nextu.dvillamar.galeriagridlay.MainActivity"
+    android:useDefaultMargins="true"
+    android:columnCount="3">
+
+    <ImageView
+        android:src="@drawable/baloncesto"
+        android:layout_width="@dimen/imagen_width"
+        android:layout_height="@dimen/imagen_height"
+        android:scaleType="centerCrop"
+        />
+    <ImageView
+        android:src="@drawable/futbol"
+        android:layout_width="@dimen/imagen_width"
+        android:layout_height="@dimen/imagen_height"
+        android:scaleType="centerCrop"
+        />
+    <ImageView
+        android:src="@drawable/tenis"
+        android:layout_width="@dimen/imagen_width"
+        android:layout_height="@dimen/imagen_height2"
+        android:scaleType="centerCrop"
+        android:layout_rowSpan="3"
+        />
+    <TextView
+        android:text="@string/baloncesto"
+        android:layout_gravity="center_horizontal"
+        />
+    <TextView
+        android:text="@string/futbol"
+        android:layout_gravity="center_horizontal"
+        />
+    <ImageView
+        android:src="@drawable/voleibol"
+        android:layout_width="@dimen/imagen_width2"
+        android:layout_height="@dimen/imagen_height"
+        android:layout_columnSpan="2"
+        android:scaleType="centerCrop"
+        />
+    <TextView
+        android:text="@string/voleibol"
+        android:layout_gravity="center_horizontal"
+        android:layout_columnSpan="2"
+        />
+    <TextView
+        android:text="@string/tenis"
+        android:layout_gravity="center_horizontal"
+        />
+
+</GridLayout>

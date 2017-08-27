@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="imagen_width">100dp</dimen>
+    <dimen name="imagen_height">100dp</dimen>
+    <dimen name="imagen_width2">200dp</dimen>
+    <dimen name="imagen_height2">230dp</dimen>
+</resources>

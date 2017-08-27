@@ -1,0 +1,12 @@
+
+
+Distribuye los elementos de forma tabular.
+Especifica directamente las filas y columnas mediante
+  android:rowCount y android:columnCount
+Dentro de cada celda se coloca lo deseado.
+Se ordenan mediante android:orientation, donde sus valores pueden ser horizontal
+o vertical.
+Un elemento puede tomar el espacio de mas de una celda, mediante
+  android:layout_rowSpam y android:layout_columnSpam.
+Se puede especificar la fila y columna mediante el índice utilizando
+  android:layout_row y android:layout_column
